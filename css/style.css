@@ -780,10 +780,10 @@ body {
 	margin: 0;
 	padding: 0;
 	right: 10px;	
-	bottom: 150px;
+	bottom: 0;
 	outline-width: 0;
 	float: right;
-	position: fixed;
+	position: sticky;
 	z-index: 10;
 	
 }
