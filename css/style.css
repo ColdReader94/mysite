@@ -780,11 +780,12 @@ body {
 	margin: 0;
 	padding: 0;
 	right: 10px;	
-	top: 0;
+	bottom: 150px;
 	outline-width: 0;
 	float: right;
-	position: sticky;
+	position: fixed;
 	z-index: 10;
+	
 }
 
 .order-button {
