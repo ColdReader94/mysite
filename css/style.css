@@ -672,9 +672,9 @@ margin: 0 5%;
 	float: none;
 	display: block;
 	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	text-align: center;
+	padding-top: 20px;
 }
 
 .sprite > a {
@@ -682,6 +682,14 @@ margin: 0 5%;
 }
 .sprite > a:last-child {
 	margin-right: 0;
+}
+
+.copyright {
+	padding-top: 20px;
+}
+
+footer {
+	min-height: auto;
 }
 
 }
@@ -773,7 +781,6 @@ body {
 	padding: 0;
 	right: 10px;	
 	top: 0;
-
 	outline-width: 0;
 	float: right;
 	position: sticky;
@@ -862,6 +869,9 @@ body {
 .sprite {
 	float: left;
 	text-align: left;
+	margin: 0;
+	padding: 10px 0;
+	width: 60%;
 }
 
 .sprite > a {
