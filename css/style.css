@@ -238,7 +238,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	  border: 1px solid #33C3F0;
+	  border: none;
 	  outline: 0; 
 }
 
@@ -277,8 +277,8 @@ button:focus,
 button:focus,
 input[type="submit"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  color: none;
+  border-color: none;
   outline: 0;
 }
 	
@@ -781,11 +781,14 @@ body {
 	padding: 0;
 	right: 10px;	
 	bottom: 0;
-	outline-width: 0;
+	outline: none;
 	float: right;
 	position: sticky;
-	z-index: 10;
-	
+	z-index: 10;	
+}
+
+.swap:focus {
+	outline: none;
 }
 
 .order-button {
